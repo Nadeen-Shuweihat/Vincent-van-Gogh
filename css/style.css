@@ -1,0 +1,88 @@
+body::after {
+    content: "";
+    background: url(https://images.prismic.io/barnebys/98aa5cd8-81b2-4900-80ee-ed87254f1623_2017_NYR_15004_0028A_000%28vincent_van_gogh_laboureur_dans_un_champ%29.jpg?auto=compress,format);
+    opacity: 0.25;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+}
+
+h1 {
+background-color : #289672;
+    color: rgba(235, 223, 223, 0.917);
+    font-style: normal;
+    height: 50px;
+    
+}
+
+nav ul li{
+    display: inline;
+    margin-inline-start: 10%;
+    text-align: center;
+
+}
+
+nav ul li a{
+    color: #289672;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+
+.container{
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+
+}
+
+
+h2 {
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    background-color: #289672;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: rgba(235, 223, 223, 0.917) ;
+    
+}
+
+p{
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 0%;
+   font-size: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+
+img{
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+footer{
+    
+background-color : #289672;
+color: rgba(235, 223, 223, 0.917);
+font-style: normal;
+height: 50px;
+}
+
+footer a{
+    display: inline-block;
+    margin-inline-start: 47.75%;
+    text-align: center;
+}
